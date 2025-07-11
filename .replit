@@ -1,0 +1,7 @@
+modules = ["dotnet-7.0", "angular-node-20", "bun-1.1", "bun-1.0", "c-clang14", "cpp-clang14", "clojure-1.12", "clojure-1.11", "dart-2.18", "deno-2", "deno-1", "elixir-1_15", "go-1.23", "go-1.21", "go-1.19", "haskell-ghc9.6", "haskell-ghc9.4", "haskell-ghc9.2", "haskell-ghc9.0", "hermit-0.38.2", "lua-5.2", "nix", "nodejs-23", "nodejs-22", "nodejs-20", "nodejs-19", "nodejs-16", "nodejs-14", "php-8.3", "php-8.2", "php-8.1", "postgresql-17", "postgresql-16", "python-3.9", "python-3.8", "python-base-3.13", "python-base-3.12", "python-base-3.11", "python-3.11", "qbasic", "r-4.4", "ruby-3.1", "ruby-3.2", "rust-nightly", "rust-stable", "svelte-kit-node-20", "swift-5.8", "swift-5.6", "vue-node-20", "vue-node-18", "pyright", "pyright-extended", "nodejs-with-prybar-18", "python-with-prybar-3.10", "dotnet-8.0"]
+run = "git init git add . git commit -m \"Initial commit: Virtual CFO app\""
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "git init git add . git commit -m \"Initial commit: Virtual CFO app\""]
